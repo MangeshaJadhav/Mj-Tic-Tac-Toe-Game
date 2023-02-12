@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Julee&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  list-style-type: none;
+  background-color: #fa8072;
+  color: white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  font-family: "Julee", cursive;
+}
+nav ul {
+  list-style-type: none;
+}
+ul li {
+  margin-left: 40vw;
+}
+.mainContainer {
+  background-color: rgb(159, 240, 240);
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 10vw);
+  grid-template-rows: repeat(3, 10vw);
+  font-family: "Julee", cursive;
+}
+.box {
+  border: 1px solid grey;
+  font-size: 8vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:hover {
+  background-color: rgb(196, 106, 16);
+}
+.gameInfo {
+  padding: 0 34px;
+  font-family: "Julee", cursive;
+  font-size: 4vh;
+}
+.info{
+    font-size: 8vh;
+    font-family: "Julee", cursive;
+
+}
+.imgBox img {
+  height: 70px;
+  width: 60px;
+}
+#reset{
+margin:5px 20px;
+padding:6px 14px;
+background: #5ce65a;
+border-radius: 3px ;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
